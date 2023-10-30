@@ -1,0 +1,1305 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/starinfo/ontologies/2023/9/untitled-ontology-6"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/starinfo/ontologies/2023/9/untitled-ontology-6">
+    <Prefix name="" IRI="http://www.semanticweb.org/starinfo/ontologies/2023/9/untitled-ontology-6/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="untitled-ontology-6" IRI="http://www.semanticweb.org/starinfo/ontologies/2023/9/untitled-ontology-6#"/>
+    <Declaration>
+        <Class IRI="#Activité_d&apos;Éducation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ActivitésPubliques"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Air"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aquatique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chimiques"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConstructionInfrastructures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Déchet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eau"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EauxIndustrielles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EauxUséesMunicipales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ecosystème"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Electroniques"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EnLigne"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Energie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Espaces"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EvaluationEnvironnementale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Formelle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fossile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gaz"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ImpactsPotentiels"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Infectieux"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Informelle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LesAéroports"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LesPonts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LesRoutes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Liquide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LoiChangementClimatique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LoiDéchets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LégislationEnvironnementale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Montagnales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Médicaux"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ménagers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pharmaceutiques"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plan_d&apos;Urbanisme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PlanificationCyclable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pluviales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pollution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Potable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProgrammesCommunautaires"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProgrammesScolaires"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Publicités"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Publiques"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Radioactifs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Renouvelable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RessourceEau"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RessourceEnergie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RessourceForêt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RessourceNaturelle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SantéHumaine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SitesWeb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Solides"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Souterraines"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tempérées"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Terrestre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TransportCommun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tropicales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Urbain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Verts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VoiesCyclables"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#apourobjectifd&apos;ameliorer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#avoirunImpactSur"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#estAssociéà"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#estLiéesà"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#estlégiférer_par"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#estrecyclablepar"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#estréaliserselon"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#etreGénererpar"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#lutterContre"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#contite"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#date"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#description"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#impact-environnemental"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#lieu"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nom"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#objectif"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#projet"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#publique-cible"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#source"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#titre"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#type"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cours"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dechets_alimentaires"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Greenpeace"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nettoyage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#aeroport_tunis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#allergie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#amazone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#belvedere"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#eau_de_salle_de_bain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#eau_pluie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ecologique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#foret"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fumée_voiture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#huiles_de_vidange"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hydrocarbures"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jardin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lacs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lesFumés"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#les_nappes_libres"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#les_pillules"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#les_seringues"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#loi_rechauffement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#loi_traitement_dechets"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#matelas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#montagne"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#petrole"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#plastique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pluie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pont_rades"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#poubelles"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#route_x"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#solaire"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#usine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#voie_bicyclette"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Activité_d&apos;Éducation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#estLiéesà"/>
+            <Class IRI="#Ecosystème"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Activité_d&apos;Éducation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#lutterContre"/>
+            <Class IRI="#Pollution"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ConstructionInfrastructures"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#estréaliserselon"/>
+            <Class IRI="#Plan_d&apos;Urbanisme"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Déchet"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#estlégiférer_par"/>
+            <Class IRI="#LoiDéchets"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Déchet"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#estrecyclablepar"/>
+            <Class IRI="#Ecosystème"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Déchet"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#etreGénererpar"/>
+            <Class IRI="#Plan_d&apos;Urbanisme"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#EvaluationEnvironnementale"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#avoirunImpactSur"/>
+            <Class IRI="#RessourceNaturelle"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#LégislationEnvironnementale"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#avoirunImpactSur"/>
+            <Class IRI="#Plan_d&apos;Urbanisme"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Pollution"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#avoirunImpactSur"/>
+            <Class IRI="#SantéHumaine"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#RessourceNaturelle"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#estAssociéà"/>
+            <Class IRI="#Ecosystème"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#ActivitésPubliques"/>
+        <Class IRI="#Activité_d&apos;Éducation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Air"/>
+        <Class IRI="#Pollution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aquatique"/>
+        <Class IRI="#Ecosystème"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chimiques"/>
+        <Class IRI="#Radioactifs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConstructionInfrastructures"/>
+        <Class IRI="#EvaluationEnvironnementale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eau"/>
+        <Class IRI="#Pollution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EauxIndustrielles"/>
+        <Class IRI="#Déchet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EauxUséesMunicipales"/>
+        <Class IRI="#Déchet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Electroniques"/>
+        <Class IRI="#Solides"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EnLigne"/>
+        <Class IRI="#Publicités"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EnLigne"/>
+        <Class IRI="#SitesWeb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Energie"/>
+        <Class IRI="#Air"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Espaces"/>
+        <Class IRI="#Plan_d&apos;Urbanisme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Formelle"/>
+        <Class IRI="#ProgrammesScolaires"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fossile"/>
+        <Class IRI="#RessourceEnergie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gaz"/>
+        <Class IRI="#Air"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ImpactsPotentiels"/>
+        <Class IRI="#EvaluationEnvironnementale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Infectieux"/>
+        <Class IRI="#Médicaux"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Informelle"/>
+        <Class IRI="#ActivitésPubliques"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Informelle"/>
+        <Class IRI="#ProgrammesCommunautaires"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LesAéroports"/>
+        <Class IRI="#ConstructionInfrastructures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LesPonts"/>
+        <Class IRI="#ConstructionInfrastructures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LesRoutes"/>
+        <Class IRI="#ConstructionInfrastructures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Liquide"/>
+        <Class IRI="#EauxIndustrielles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Liquide"/>
+        <Class IRI="#EauxUséesMunicipales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LoiChangementClimatique"/>
+        <Class IRI="#LégislationEnvironnementale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LoiDéchets"/>
+        <Class IRI="#LégislationEnvironnementale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Montagnales"/>
+        <Class IRI="#RessourceForêt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Médicaux"/>
+        <Class IRI="#Déchet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ménagers"/>
+        <Class IRI="#Déchet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pharmaceutiques"/>
+        <Class IRI="#Médicaux"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PlanificationCyclable"/>
+        <Class IRI="#Plan_d&apos;Urbanisme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pluviales"/>
+        <Class IRI="#RessourceEau"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Potable"/>
+        <Class IRI="#RessourceEau"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProgrammesCommunautaires"/>
+        <Class IRI="#Activité_d&apos;Éducation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProgrammesScolaires"/>
+        <Class IRI="#Activité_d&apos;Éducation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Publicités"/>
+        <Class IRI="#Activité_d&apos;Éducation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Publiques"/>
+        <Class IRI="#Espaces"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Radioactifs"/>
+        <Class IRI="#Déchet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Renouvelable"/>
+        <Class IRI="#RessourceEnergie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RessourceEau"/>
+        <Class IRI="#RessourceNaturelle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RessourceEnergie"/>
+        <Class IRI="#RessourceNaturelle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RessourceForêt"/>
+        <Class IRI="#RessourceNaturelle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SantéHumaine"/>
+        <Class IRI="#ImpactsPotentiels"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SitesWeb"/>
+        <Class IRI="#Activité_d&apos;Éducation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sol"/>
+        <Class IRI="#Pollution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Solides"/>
+        <Class IRI="#Electroniques"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Solides"/>
+        <Class IRI="#Ménagers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Souterraines"/>
+        <Class IRI="#RessourceEau"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tempérées"/>
+        <Class IRI="#RessourceForêt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Terrestre"/>
+        <Class IRI="#Ecosystème"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TransportCommun"/>
+        <Class IRI="#Plan_d&apos;Urbanisme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tropicales"/>
+        <Class IRI="#RessourceForêt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Urbain"/>
+        <Class IRI="#Ecosystème"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Verts"/>
+        <Class IRI="#Espaces"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VoiesCyclables"/>
+        <Class IRI="#PlanificationCyclable"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Activité_d&apos;Éducation"/>
+        <Class IRI="#Ecosystème"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Activité_d&apos;Éducation"/>
+        <Class IRI="#Pollution"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Air"/>
+        <Class IRI="#Eau"/>
+        <Class IRI="#Sol"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Aquatique"/>
+        <Class IRI="#Terrestre"/>
+        <Class IRI="#Urbain"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Déchet"/>
+        <Class IRI="#Plan_d&apos;Urbanisme"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Ecosystème"/>
+        <Class IRI="#RessourceNaturelle"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EvaluationEnvironnementale"/>
+        <Class IRI="#RessourceNaturelle"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#LesAéroports"/>
+        <Class IRI="#LesPonts"/>
+        <Class IRI="#LesRoutes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#LoiChangementClimatique"/>
+        <Class IRI="#LoiDéchets"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#LégislationEnvironnementale"/>
+        <Class IRI="#Plan_d&apos;Urbanisme"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Publiques"/>
+        <Class IRI="#Verts"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#RessourceEau"/>
+        <Class IRI="#RessourceEnergie"/>
+        <Class IRI="#RessourceForêt"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#TransportCommun"/>
+        <NamedIndividual IRI="#Bus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ProgrammesScolaires"/>
+        <NamedIndividual IRI="#Cours"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Solides"/>
+        <NamedIndividual IRI="#Dechets_alimentaires"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Informelle"/>
+        <NamedIndividual IRI="#Greenpeace"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Informelle"/>
+        <NamedIndividual IRI="#Nettoyage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LesAéroports"/>
+        <NamedIndividual IRI="#aeroport_tunis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SantéHumaine"/>
+        <NamedIndividual IRI="#allergie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tropicales"/>
+        <NamedIndividual IRI="#amazone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Verts"/>
+        <NamedIndividual IRI="#belvedere"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EauxUséesMunicipales"/>
+        <NamedIndividual IRI="#eau_de_salle_de_bain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Potable"/>
+        <NamedIndividual IRI="#eau_pluie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EnLigne"/>
+        <NamedIndividual IRI="#ecologique"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Terrestre"/>
+        <NamedIndividual IRI="#foret"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gaz"/>
+        <NamedIndividual IRI="#fumée_voiture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Liquide"/>
+        <NamedIndividual IRI="#huiles_de_vidange"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Eau"/>
+        <NamedIndividual IRI="#hydrocarbures"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Publiques"/>
+        <NamedIndividual IRI="#jardin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aquatique"/>
+        <NamedIndividual IRI="#lacs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chimiques"/>
+        <NamedIndividual IRI="#lesFumés"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Souterraines"/>
+        <NamedIndividual IRI="#les_nappes_libres"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pharmaceutiques"/>
+        <NamedIndividual IRI="#les_pillules"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Infectieux"/>
+        <NamedIndividual IRI="#les_seringues"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LoiChangementClimatique"/>
+        <NamedIndividual IRI="#loi_rechauffement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LoiDéchets"/>
+        <NamedIndividual IRI="#loi_traitement_dechets"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Solides"/>
+        <NamedIndividual IRI="#matelas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Montagnales"/>
+        <NamedIndividual IRI="#montagne"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fossile"/>
+        <NamedIndividual IRI="#petrole"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Solides"/>
+        <NamedIndividual IRI="#plastique"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pluviales"/>
+        <NamedIndividual IRI="#pluie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LesPonts"/>
+        <NamedIndividual IRI="#pont_rades"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sol"/>
+        <NamedIndividual IRI="#poubelles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LesRoutes"/>
+        <NamedIndividual IRI="#route_x"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Renouvelable"/>
+        <NamedIndividual IRI="#solaire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Urbain"/>
+        <NamedIndividual IRI="#usine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VoiesCyclables"/>
+        <NamedIndividual IRI="#voie_bicyclette"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#etreGénererpar"/>
+        <NamedIndividual IRI="#Dechets_alimentaires"/>
+        <NamedIndividual IRI="#belvedere"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estLiéesà"/>
+        <NamedIndividual IRI="#Nettoyage"/>
+        <NamedIndividual IRI="#foret"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#etreGénererpar"/>
+        <NamedIndividual IRI="#lesFumés"/>
+        <NamedIndividual IRI="#Bus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estlégiférer_par"/>
+        <NamedIndividual IRI="#les_pillules"/>
+        <NamedIndividual IRI="#loi_traitement_dechets"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#avoirunImpactSur"/>
+        <NamedIndividual IRI="#loi_traitement_dechets"/>
+        <NamedIndividual IRI="#jardin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estrecyclablepar"/>
+        <NamedIndividual IRI="#plastique"/>
+        <NamedIndividual IRI="#usine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estAssociéà"/>
+        <NamedIndividual IRI="#pluie"/>
+        <NamedIndividual IRI="#lacs"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estréaliserselon"/>
+        <NamedIndividual IRI="#route_x"/>
+        <NamedIndividual IRI="#voie_bicyclette"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apourobjectifd&apos;ameliorer"/>
+        <NamedIndividual IRI="#voie_bicyclette"/>
+        <NamedIndividual IRI="#route_x"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Bus"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">transporter les gens</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nom"/>
+        <NamedIndividual IRI="#Bus"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">BUUS</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Cours"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Evaluation sur l&apos;environnement</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nom"/>
+        <NamedIndividual IRI="#Cours"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Sensibilisation Contre Pollution D&apos;eau</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#type"/>
+        <NamedIndividual IRI="#Dechets_alimentaires"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Alimentaire </Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Nettoyage"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Valoriser , Maintenir , protecter et nettoyer les forets</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#publique-cible"/>
+        <NamedIndividual IRI="#Nettoyage"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">pecheurs</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titre"/>
+        <NamedIndividual IRI="#Nettoyage"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">protéger les forets</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#belvedere"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Jardin Publique</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nom"/>
+        <NamedIndividual IRI="#belvedere"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Belvedere</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#foret"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">écosystème étendu constituant des arbres , animeaux qui vivent en interaction et qu&apos;on dit le protéger</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nom"/>
+        <NamedIndividual IRI="#foret"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Foret Ghedhabna</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#jardin"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Espace Vert </Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nom"/>
+        <NamedIndividual IRI="#jardin"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Jardin Japonais</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#objectif"/>
+        <NamedIndividual IRI="#jardin"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Réunir les personnes et protecter les plantes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#lacs"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">étendue d&apos;eau libre qui s&apos;écoule très lentement, logée dans une dépression de l&apos;écorce terrestre et qui peut comprendre des étangs et des réservoirs.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nom"/>
+        <NamedIndividual IRI="#lacs"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Lac Zaghouen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#lesFumés"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Carbone</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#lesFumés"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">H2O</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#type"/>
+        <NamedIndividual IRI="#les_pillules"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Pharmaceutiqes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#date"/>
+        <NamedIndividual IRI="#loi_traitement_dechets"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">18/02/2018</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#loi_traitement_dechets"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Pénaliser ceux qui jettent les dechets </Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nom"/>
+        <NamedIndividual IRI="#loi_traitement_dechets"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Loi 540 : dimunition des dechets</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#plastique"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">plastique dure </Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nom"/>
+        <NamedIndividual IRI="#plastique"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">bouteille d&apos;eau</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contite"/>
+        <NamedIndividual IRI="#pluie"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">500</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nom"/>
+        <NamedIndividual IRI="#pluie"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Pluie </Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#type"/>
+        <NamedIndividual IRI="#pluie"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">ressource hydraulique</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#impact-environnemental"/>
+        <NamedIndividual IRI="#route_x"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">reduction des fumees </Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#projet"/>
+        <NamedIndividual IRI="#route_x"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">ameliorer les routes </Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#usine"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Usine de recyclage Hazeg
+</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nom"/>
+        <NamedIndividual IRI="#usine"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Usine 515</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#voie_bicyclette"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">route a droite avec un symbole de byciclette </Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nom"/>
+        <NamedIndividual IRI="#voie_bicyclette"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">voie bicyclette</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#objectif"/>
+        <NamedIndividual IRI="#voie_bicyclette"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">securiser les cyclistes</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#apourobjectifd&apos;ameliorer"/>
+        <Class IRI="#Plan_d&apos;Urbanisme"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#avoirunImpactSur"/>
+        <Class IRI="#EvaluationEnvironnementale"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#avoirunImpactSur"/>
+        <Class IRI="#LégislationEnvironnementale"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#estAssociéà"/>
+        <Class IRI="#RessourceNaturelle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#estLiéesà"/>
+        <Class IRI="#Activité_d&apos;Éducation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#estlégiférer_par"/>
+        <Class IRI="#Déchet"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#estrecyclablepar"/>
+        <Class IRI="#Déchet"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#estréaliserselon"/>
+        <Class IRI="#ConstructionInfrastructures"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#etreGénererpar"/>
+        <Class IRI="#Déchet"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#lutterContre"/>
+        <Class IRI="#Activité_d&apos;Éducation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#apourobjectifd&apos;ameliorer"/>
+        <Class IRI="#Ecosystème"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#apourobjectifd&apos;ameliorer"/>
+        <Class IRI="#EvaluationEnvironnementale"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#avoirunImpactSur"/>
+        <Class IRI="#Plan_d&apos;Urbanisme"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#avoirunImpactSur"/>
+        <Class IRI="#RessourceNaturelle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#estAssociéà"/>
+        <Class IRI="#Ecosystème"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#estLiéesà"/>
+        <Class IRI="#Ecosystème"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#estlégiférer_par"/>
+        <Class IRI="#LoiDéchets"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#estrecyclablepar"/>
+        <Class IRI="#Ecosystème"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#estréaliserselon"/>
+        <Class IRI="#Plan_d&apos;Urbanisme"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#etreGénererpar"/>
+        <Class IRI="#Plan_d&apos;Urbanisme"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#lutterContre"/>
+        <Class IRI="#Pollution"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#contite"/>
+        <Class IRI="#Déchet"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#contite"/>
+        <Class IRI="#RessourceNaturelle"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#date"/>
+        <Class IRI="#Activité_d&apos;Éducation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#date"/>
+        <Class IRI="#LégislationEnvironnementale"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#description"/>
+        <Class IRI="#Activité_d&apos;Éducation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#description"/>
+        <Class IRI="#Ecosystème"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#description"/>
+        <Class IRI="#LégislationEnvironnementale"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#description"/>
+        <Class IRI="#Plan_d&apos;Urbanisme"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#impact-environnemental"/>
+        <Class IRI="#EvaluationEnvironnementale"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#lieu"/>
+        <Class IRI="#Activité_d&apos;Éducation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nom"/>
+        <Class IRI="#Déchet"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nom"/>
+        <Class IRI="#Ecosystème"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nom"/>
+        <Class IRI="#LégislationEnvironnementale"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nom"/>
+        <Class IRI="#Plan_d&apos;Urbanisme"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nom"/>
+        <Class IRI="#RessourceNaturelle"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#objectif"/>
+        <Class IRI="#Plan_d&apos;Urbanisme"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#projet"/>
+        <Class IRI="#EvaluationEnvironnementale"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#publique-cible"/>
+        <Class IRI="#Activité_d&apos;Éducation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#source"/>
+        <Class IRI="#Pollution"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#titre"/>
+        <Class IRI="#Activité_d&apos;Éducation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#type"/>
+        <Class IRI="#Déchet"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#type"/>
+        <Class IRI="#Pollution"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#type"/>
+        <Class IRI="#RessourceNaturelle"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#contite"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#date"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#description"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#impact-environnemental"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nom"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#objectif"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#projet"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#publique-cible"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#source"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#titre"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#type"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

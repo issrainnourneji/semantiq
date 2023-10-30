@@ -1,0 +1,8 @@
+PREFIX ns: <http://www.semanticweb.org/starinfo/ontologies/2023/9/untitled-ontology-6>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+
+SELECT ?déchet
+WHERE {
+?déchet rdf:type ns:Déchet .
+}
